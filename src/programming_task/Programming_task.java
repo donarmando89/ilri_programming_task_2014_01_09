@@ -75,7 +75,7 @@ public class Programming_task implements SentenceListener {
         }
         try {
             new Programming_task(new File(args[0]));
-            System.out.println("Running, press CTRL-C to stop..");
+            System.out.println("Running, press CTRL-C OR THE STOP BUTTON ON THE OUTPUT WINDOW to stop..");
         } catch (IOException e) {
             e.printStackTrace();
             System.exit(1);
